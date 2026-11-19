@@ -11,9 +11,6 @@ export default defineConfig({
   use: {
     baseURL: process.env.BASE_URL || 'https://www.saucedemo.com',
     trace: 'on-first-retry', 
-    launchOptions: {
-      slowMo: 1000, 
-    },
   },
   projects: [
     { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
