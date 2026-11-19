@@ -51,11 +51,13 @@
             </collectionProp>
           </HeaderManager>
           <hashTree/>
-          <JSONPathExtractor guiclass="JSONPathExtractorGui" testclass="JSONPathExtractor" testname="Extract Token" enabled="true">
-            <stringProp name="JSONPathExtractor.referenceName">token</stringProp>
-            <stringProp name="JSONPathExtractor.jsonPath">$.token</stringProp>
-            <stringProp name="JSONPathExtractor.defaultValue"></stringProp>
-          </JSONPathExtractor>
+          <!-- AQUI ESTA EL CAMBIO AL COMPONENTE NATIVO -->
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="Extract Token" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">token</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.token</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
+            <stringProp name="JSONPostProcessor.defaultValues">NOT_FOUND</stringProp>
+          </JSONPostProcessor>
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Assert 200 OK" enabled="true">
             <collectionProp name="Asserion.test_strings">

@@ -1,0 +1,50 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 20,
+    "errorCount" : 10,
+    "errorPct" : 50.0,
+    "meanResTime" : 1012.45,
+    "medianResTime" : 860.0,
+    "minResTime" : 783.0,
+    "maxResTime" : 1895.0,
+    "pct1ResTime" : 1538.2000000000005,
+    "pct2ResTime" : 1878.4499999999998,
+    "pct3ResTime" : 1895.0,
+    "throughput" : 3.2425421530479897,
+    "receivedKBytesPerSec" : 2.4813047178988326,
+    "sentKBytesPerSec" : 0.9832122446498054
+  },
+  "2. POST Booking (Create)" : {
+    "transaction" : "2. POST Booking (Create)",
+    "sampleCount" : 10,
+    "errorCount" : 10,
+    "errorPct" : 100.0,
+    "meanResTime" : 945.0999999999999,
+    "medianResTime" : 872.5,
+    "minResTime" : 783.0,
+    "maxResTime" : 1306.0,
+    "pct1ResTime" : 1293.0,
+    "pct2ResTime" : 1306.0,
+    "pct3ResTime" : 1306.0,
+    "throughput" : 2.1934634788330776,
+    "receivedKBytesPerSec" : 1.6660897400745778,
+    "sentKBytesPerSec" : 0.8075544253125685
+  },
+  "1. POST Auth (Token)" : {
+    "transaction" : "1. POST Auth (Token)",
+    "sampleCount" : 10,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1079.8,
+    "medianResTime" : 860.0,
+    "minResTime" : 815.0,
+    "maxResTime" : 1895.0,
+    "pct1ResTime" : 1861.9,
+    "pct2ResTime" : 1895.0,
+    "pct3ResTime" : 1895.0,
+    "throughput" : 1.9230769230769231,
+    "receivedKBytesPerSec" : 1.4824969951923077,
+    "sentKBytesPerSec" : 0.4582331730769231
+  }
+}
