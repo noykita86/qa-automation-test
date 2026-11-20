@@ -14,8 +14,8 @@ test.describe.serial('Restful-Booker API CRUD Tests', () => {
   test('1. Autenticación - Obtener Token', async ({ request }) => {
     const response = await request.post(`${apiUrl}/auth`, {
       data: {
-        username: process.env.API_USER || 'admin',
-        password: process.env.API_PASS || 'password123'
+        username: process.env.API_USER,
+        password: process.env.API_PASS
       }
     });
 
