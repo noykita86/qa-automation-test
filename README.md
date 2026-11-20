@@ -35,10 +35,10 @@ npx playwright show-report              # ver informe HTML
 Variables de entorno (`.env` en la raíz, ver `.env.example`):
 
 ```
-SAUCE_USER=standard_user
-SAUCE_PASSWORD=secret_sauce
-API_USERNAME=admin
-API_PASSWORD=password123
+SAUCE_USER=tu_usuario
+SAUCE_PASSWORD=tu_contraseña
+API_USERNAME=tu_usuario_api
+API_PASSWORD=tu_contraseña_api
 ```
 
 > En CI las credenciales se inyectan vía **GitHub Secrets**, nunca se commitean.
